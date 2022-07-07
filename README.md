@@ -1,14 +1,16 @@
 # Pre-Placement-Module-2023
 
-- Name: 
-- University Roll No.:
-- Branch:
-- Section:
+- Name: Pallak Parmar
+- University Roll No.: 1900290210110
+- Branch: Electrical And Electronics Engineering
+- Section: b
 - Preferred Programming Language: C++/Java/Python
 
 ## Coding Profiles
-- LeetCode: [FIRSTNAME_LASTNAME](https://leetcode.com/YourLeetCodeUserName/)
-- HackerRank: [FIRSTNAME_LASTNAME](https://www.hackerrank.com/HackerRankUserName)
+- LeetCode:  [PALLAK_PARMAR] (https://www.codechef.com/users/pallak_005)
+              [FIRSTNAME_LASTNAME](https://leetcode.com/YourLeetCodeUserName/)
+- HackerRank: [PALLAK_PARMAR] (https://www.hackerrank.com/pallakparmar51)
+               [FIRSTNAME_LASTNAME](https://www.hackerrank.com/HackerRankUserName)
 
 ## Placement Module
 1. [DS I](https://github.com/YOURGITHUBUSERNAME/Pre-Placement-Module-2023/tree/main/DS%20I)
