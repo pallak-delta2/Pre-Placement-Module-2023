@@ -8,9 +8,9 @@
 
 ## Coding Profiles
 - LeetCode:  [PALLAK_PARMAR] (https://www.codechef.com/users/pallak_005)
-              [FIRSTNAME_LASTNAME](https://leetcode.com/YourLeetCodeUserName/)
+              (https://leetcode.com/YourLeetCodeUserName/)
 - HackerRank: [PALLAK_PARMAR] (https://www.hackerrank.com/pallakparmar51)
-               [FIRSTNAME_LASTNAME](https://www.hackerrank.com/HackerRankUserName)
+              (https://www.hackerrank.com/HackerRankUserName)
 
 ## Placement Module
 1. [DS I](https://github.com/YOURGITHUBUSERNAME/Pre-Placement-Module-2023/tree/main/DS%20I)
