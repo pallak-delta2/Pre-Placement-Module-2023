@@ -7,7 +7,7 @@
 - Preferred Programming Language: C++/Java/Python
 
 ## Coding Profiles
-- LeetCode:  [PALLAK_PARMAR] (https://www.codechef.com/users/pallak_005)
+- LeetCode:  [PALLAK_PARMAR] (https://leetcode.com/Pallak_01/)
               
 - HackerRank: [PALLAK_PARMAR] (https://www.hackerrank.com/pallakparmar51)
               
