@@ -1,0 +1,18 @@
+++++++++++++++++++++++++++++++++++++++++++++++++
+       merge sort array
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+import java.util.Arrays;
+class Solution 
+{
+    public void merge(int[] a, int m, int[] b, int n) 
+    {
+        int i = 0, j = 0, k = 0;
+        for (i=m;i<(m+n);i++)
+        {
+            if(j<n){
+                a[i]= b[j]; j++;}
+     }
+     Arrays.sort(a);
+    }
+}
