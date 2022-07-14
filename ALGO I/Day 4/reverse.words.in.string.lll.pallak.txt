@@ -1,0 +1,26 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+       reverse words in a string lll
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class Solution {
+    public String reverseWords(String s) 
+    {
+        int i=0;
+        String st2="",st="";
+        s=s+" ";
+        int l=s.length();//length of string
+        while(i<l)
+        {
+            if(s.charAt(i)==' ')
+            {
+                st2=st2+st+s.charAt(i);
+                st="";
+            }
+            else
+                st=s.charAt(i)+st;
+                i++;
+        }
+        s=st2.trim();
+        return s;
+    }
+}
