@@ -4,7 +4,7 @@
 - University Roll No.: 1900290210110
 - Branch: Electrical And Electronics Engineering
 - Section: B
-- Preferred Programming Language: C++/Java/Python
+- Preferred Programming Language: C/Java/Python
 
 ## Coding Profiles
 - LeetCode:  [PALLAK_PARMAR] (https://leetcode.com/Pallak_01/)
