@@ -1,0 +1,16 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+       binary tree inorder traversal
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class Solution {
+    public ListInteger inorderTraversal(TreeNode root) {
+        ListInteger traversalList = new ArrayList();
+        if(root == null){
+            return traversalList;
+        } if the called root is null then just return an empty list.
+        traversalList.addAll(inorderTraversal(root.left)); call for leftNode
+        traversalList.add(root.val); call for presentNode
+        traversalList.addAll(inorderTraversal(root.right)); call for the rightNode
+        return traversalList;
+    }
+}
