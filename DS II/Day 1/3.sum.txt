@@ -1,0 +1,27 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+       3 sum
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class Solution {
+     public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        HashMap<Integer, Integer> sl = new HashMap<>();
+        List<List<Integer>> res = new ArrayList<>();
+        for(int i=0;i<nums.length;i++)
+            sl.put(nums[i], i);      // overwriting i to hold the latest position of repeating number 
+        for(int i=0;i<nums.length-2;i++)
+        {
+            for(int j=i+1;j<nums.length-1;j++)
+            {
+               int target = 0-nums[i]-nums[j];
+                if(sl.containsKey(target) && sl.get(target)>j)
+                {
+                    j=sl.get(nums[j]);
+                    res.add(Arrays.asList(nums[i], nums[j], target));
+                }
+            }
+            i=sl.get(nums[i]);  // To remove duplicates
+        }
+        return res;
+    }
+}
